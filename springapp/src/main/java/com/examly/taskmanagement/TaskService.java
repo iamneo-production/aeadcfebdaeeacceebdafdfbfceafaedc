@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class TaskService {
     // Fake Data
-    private List<Task> tasks = new ArrayList<>(Arrays.asList(
-            new Task(1, "complete Projects", "12/12/2020", "In Progress", "Mark"),
-            new Task(2, "PR pending", "11/12/2020", "In Progress", "Laya"),
-            new Task(3, "Merge Pending", "11/12/2020", "In Progress", "Adam")));
+    // private List<Task> tasks = new ArrayList<>(Arrays.asList(
+    //         new Task(1, "complete Projects", "12/12/2020", "In Progress", "Mark"),
+    //         new Task(2, "PR pending", "11/12/2020", "In Progress", "Laya"),
+    //         new Task(3, "Merge Pending", "11/12/2020", "In Progress", "Adam")));
 
     public List<Task> getAllList() {
         return tasks;
