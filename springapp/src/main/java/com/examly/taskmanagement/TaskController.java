@@ -26,6 +26,8 @@ public class TaskController {
         return "Hello From /";
     }
 
+    @GetMapping("/")
+
     @GetMapping("/alltasks")
     public List<Task> getAllTasks() {
         return taskService.getAllList();
@@ -53,6 +55,8 @@ public class TaskController {
     public void deleteTask(@RequestParam("id") Integer id) { 
         taskService.deleteTask(id);
     }
+
+
     
 
 
